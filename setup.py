@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="kompozitor-jocapc",
+    name="kompozitor",
     version="0.0.1",
     author="Jovan Popovic",
     author_email="jocapc@gmail.com",
@@ -15,7 +15,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: GNU General Public License",
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
